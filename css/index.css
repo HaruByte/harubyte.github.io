@@ -1,23 +1,46 @@
 html, body {
     padding: 0;
     margin: 0;
-}
-
-body {
     font-family: sans-serif;
 }
 
-a {
-    text-decoration: none;
+body {
+    background: #9E0085;
+    -webkit-tap-highlight-color: inherit;
 }
 
-hr {
-    opacity: 0.2;
+#header hr {
+    margin: 0;
 }
 
-.logo {
-    filter: brightness(0);
-    width: 6rem;
-    height: auto;
-    margin-bottom: 20px;
+#header a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 .2rem;
+}
+
+#main {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -3px 2.6px;
+    min-height: 100vh;
+}
+
+#info a {
+    color: #000;
+}
+
+#projects a {
+    color: #000;
+    font-size: 1.9rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title hr {
+    width: 90px;
+    margin: 0 auto;
 }
